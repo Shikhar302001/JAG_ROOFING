@@ -242,10 +242,10 @@ button:focus:not(:focus-visible) {
   border-radius: 0%;
 }
 .accordion-button.collapsed::after {
-  background-image: url("/Images/Section3/arrow-right.svg") !important;
+  background-image: url("Images/Section3/arrow-right.svg") !important;
 }
 .accordion-button:not(.collapsed)::after{
-  background-image: url("/Images/Section3/arrow-up-right.svg") !important;
+  background-image: url("Images/Section3/arrow-up-right.svg") !important;
   transform: rotate(0) !important;
 }
 #section3paragraph{
@@ -279,7 +279,7 @@ text-align: left;
 
 /* Section4 */
 #section4{
-  background-image: url(/Images/Section4/Overlay.png);
+  background-image: url(Images/Section4/Overlay.png);
   margin-top: 100px;
  background-size: cover;
 }
@@ -386,7 +386,7 @@ color: rgba(255, 255, 255, 1);
   background-color: rgba(3, 40, 89, 1);
 }
 #section7div{
-  background-image: url("/Images/Section7/Overlay1.png");
+  background-image: url("Images/Section7/Overlay1.png");
   background-size: cover;
 }
 #section6img{
@@ -407,7 +407,7 @@ color: rgba(255, 255, 255, 1);
 }
 .icon{
   padding-left: 25px;
-  background: url("/Images/Section8/Email.png") no-repeat left;
+  background: url("Images/Section8/Email.png") no-repeat left;
   background-size: 20px;
 }
 #section8Input::placeholder{
@@ -447,7 +447,7 @@ text-align: left;
   position: absolute;
   width: 80px;
   height: 98px;
-  background-image: url(/Images/Section9/Group10.png);
+  background-image: url(Images/Section9/Group10.png);
   object-fit: contain;
   background-repeat: no-repeat;
   background-color: rgb(0,0,0,0);
@@ -487,10 +487,10 @@ color: rgba(56, 56, 56, 1);
     padding-left: 40px !important;
 }
 #section9div .accordion-button.collapsed::after {
-  background-image: url("/Images/Section9/Positive.png") !important;
+  background-image: url("Images/Section9/Positive.png") !important;
 }
 #section9div .accordion-button:not(.collapsed)::after {
-  background-image: url("/Images/Section9/Negative.png") !important;
+  background-image: url("Images/Section9/Negative.png") !important;
   transform: rotate(0) !important;
 }
 
@@ -594,12 +594,12 @@ text-align: left;
 display: flex;
 }
 #sectiondiv1{
-  background-image: url("/Images/Section10/Section1011.png");
+  background-image: url("Images/Section10/Section1011.png");
   background-size: cover;
 }
 
 #section11fluidcontainer{
-  background-image: url("/Images/Section11/ModernHouseat\ Twilight2.png");
+  background-image: url("Images/Section11/ModernHouseat\ Twilight2.png");
   background-size: contain;
   width: 100%;
   height: 1000px;
@@ -687,7 +687,7 @@ margin-bottom: 5px;
 }
 .footericon{
     padding-right: 25px;
-    background: url("/Images/Footer/bi_arrow-up.png") no-repeat right;
+    background: url("Images/Footer/bi_arrow-up.png") no-repeat right;
     background-size: 20px;
 }
 
