@@ -1,0 +1,897 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+#bg-1{
+  background-color: rgba(1, 3, 38, 1);
+  color: white;
+  max-width: 100%;
+}
+#socialicons a{
+   padding: 5px;
+}
+.stick{
+  height: 10px;
+  width: 1px;
+  background-color: white;
+  display: inline-block;
+  margin: 0px 5px;
+}
+#Ankle a{
+  color: rgba(0, 0, 0, 0.5);
+}
+#navbutton{
+  background-color: rgba(15, 109, 191, 1);
+  border-radius: 0%;
+}
+#navabar{
+  background-color: white;
+}
+#Hello{
+  background-color: aqua;
+}
+
+#mainbodydiv1text1{
+font-family: LEMON MILK;
+font-size: 64px;
+font-weight: 700;
+line-height: 83.2px;
+text-align: center;
+}
+#mainbodydiv1text2{
+font-family: LEMON MILK LIGHT;
+font-size: 64px;
+font-weight: 300;
+line-height: 83.2px;
+text-align: right;
+}
+#mainbodydiv1text2 Img{
+  padding-bottom: 5%;
+}
+#maindivbutton{
+  border-color: rgba(15, 109, 191, 1);
+  border-radius: 0%;
+  color: rgba(15, 109, 191, 1);
+}
+#maindiv1 img {
+  width: 100%;
+  margin-left: -70px;
+  margin-top: 35.2px;
+}
+#maindiv2 img{
+  width: 100%;
+  transform: scale(1.15);
+}
+#section1{
+  background-color: wheat;
+  z-index: 1;
+}
+#sectionBox1{
+background-color: white;
+width: 377px;
+height: 74px;
+}
+
+
+.smallbox{
+width: 80%;
+padding: 50px 60px 50px 60px;
+background-color: white;
+z-index: 1;
+}
+#Section1text {
+  font-family: PT Sans;
+  font-size: 18px;
+  text-align: left;
+  color: rgba(15, 109, 191, 1);
+  margin-bottom: 0%;
+  margin-top: 40px;
+}
+
+#Section2text{
+font-family: PT Sans;
+font-size: 36px;
+font-weight: 700;
+text-align: left;
+color: rgba(0, 0, 0, 1);
+}
+#Section1{
+  position: relative;
+  margin-top: -3%;
+  background-color: white;
+ 
+}
+#Section1Form input{
+  border-radius: 0%;
+}
+#Section1Button{
+  border-radius: 0%;
+  background-color: rgba(15, 109, 191, 1);
+  padding: 12px, 20px, 12px, 20px;
+}
+#section1{
+/* padding-left: 3.75rem; */
+background-color: white;
+
+}
+
+#section2image img{
+  width: 100%;
+}
+#section2image1{
+position: relative;
+margin-top: -10em;
+left: 28em;
+}
+
+#paragraphtext1 span{
+font-family: LEMON MILK;
+font-size: 48px;
+font-weight: 500;
+line-height: 62.4px;
+text-align: left;
+
+}
+#paragraphtext2{
+  padding-top: 100px;
+  padding-left:50px ;
+  display: flex;
+
+}
+#paragraphtext2 h1{
+font-family: PT Sans;
+font-size: 36px;
+font-weight: 700;
+line-height: 46.58px;
+text-align: left;
+color: rgba(15, 109, 191, 1);
+
+}
+#paragraphtext2 h1 span{
+  text-align: left;
+}
+#paragraphtext1{
+  margin-left: 40px;
+}
+#section2Button{
+  background-color: white;
+  border: 2px solid rgba(15, 109, 191, 1);
+  width: 265.78px;
+  height: 56.78px;
+  padding: 12px 20px 12px 20px;
+  margin-left: 80px;
+  color: rgba(15, 109, 191, 1);
+}
+#paragraphtext1 img{
+    margin-top: -56px;
+    margin-left: -10px;
+}
+
+#small-section {
+  background-color: rgba(1, 3, 38, 1);
+  color: white;
+  align-items: center;
+  justify-content: center;
+  margin-top: 120px;
+  padding: 20px;
+}
+#small-section img{
+
+}
+#section3ourservice{
+font-family: PT Sans;
+font-size: 36px;
+font-weight: 700;
+margin: 0%;
+text-align: left;
+color: rgba(15, 109, 191, 1);
+}
+#section3Premier{
+font-family: LEMON MILK;
+font-size: 48px;
+text-align: left;
+color: rgba(0, 0, 0, 1);
+margin: 0;
+}
+#section3forhomes{
+font-family: LEMON MILK LIGHT;
+font-size: 48px;
+text-align: right;
+color: black;
+margin: 0;
+}
+#nextcol-text{
+font-family: PT Sans;
+font-size: 18px;
+font-weight: 400;
+line-height: 27px;
+color: rgba(56, 56, 56, 1);
+}
+#section3img{
+  width: 100%;
+}
+#section3button{
+width: 100%;
+height: 7.5em; 
+border-radius: 0%;
+font-family: PT Sans;
+text-align: center;
+}
+#section3button span{
+padding: 8px 24px 8px 24px;
+border-radius: 50px;
+border: 1px solid rgba(56, 56, 56, 1);
+font-family: PT Sans;
+font-size: 18px;
+text-align: left;
+color: rgba(56, 56, 56, 0.734);
+
+}
+button:focus:not(:focus-visible) {
+  outline-width: 0cap !important;
+}
+.accordion{
+   --bs-accordion-btn-focus-box-shadow: none; 
+}
+.accordion-button:not(.collapsed) {
+  background-color: rgb(0,0,0,0) !important;
+}
+.accordion-button.collapsed {
+  border-radius: 0%;
+}
+.accordion-button.collapsed::after {
+  background-image: url("/Images/Section3/arrow-right.svg") !important;
+}
+.accordion-button:not(.collapsed)::after{
+  background-image: url("/Images/Section3/arrow-up-right.svg") !important;
+  transform: rotate(0) !important;
+}
+#section3paragraph{
+  border-bottom: 3px solid rgba(15, 109, 191, 1);
+}
+#section3paragraph p{
+font-family: PT Sans;
+font-size: 18px;
+font-weight: 400;
+line-height: 27px;
+text-align: left;
+
+}
+@font-face {
+  font-family: LEMON MILK;
+  src:url("/font/lemon_milk/LEMONMILK-Bold.otf");
+}
+@font-face{
+  font-family: LEMON MILK LIGHT;
+  src: url("/font/lemon_milk/LEMONMILK-Light.otf");
+}
+#section3buttontext{
+font-family: PT Sans;
+font-size: 36px;
+font-weight: 400;
+line-height: 46.58px;
+text-align: left;
+
+}
+
+
+/* Section4 */
+#section4{
+  background-image: url(/Images/Section4/Overlay.png);
+  margin-top: 100px;
+ background-size: cover;
+}
+#section4div{
+  width: 776px;
+  
+}
+#section4Button{
+  border: 2px solid rgb(255, 255, 255);
+  width: 265.78px;
+  height: 56.78px;
+  padding: 12px 20px 12px 20px;
+  color: rgb(255, 255, 255);
+  background-color: rgba(0, 0, 0, 0);
+  margin-left: 250px;
+}
+#section4text1{
+font-family: LEMON MILK;
+font-size: 64px;
+text-align: left;
+color: rgba(255, 255, 255, 1);
+margin: 0%;
+}
+#section4text2{
+font-family: LEMON MILK LIGHT;
+font-size: 64px;
+text-align: right;
+color: rgb(255, 255, 255);
+margin: 0%;
+}
+#section4text3{
+font-family: PT Sans;
+font-size: 18px;
+text-align: left;
+color: white;
+}
+#section4div{
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+#imagesection5{
+  width: 100%;
+}
+
+/* section5 */
+
+#section5text1{
+  font-family: PT Sans;
+font-size: 32px;
+text-align: center;
+color: rgba(15, 109, 191, 1);
+}
+#section5text2{
+font-family: LEMON MILK;
+font-size: 50px;
+text-align: left;
+color: rgba(15, 109, 191, 1);
+}
+#section5text3{
+font-family: LEMON MILK LIGHT;
+font-size: 64px;
+text-align: left;
+color: rgba(56, 56, 56, 1);
+}
+#section5text{
+  margin-top: 100px;
+}
+#section5second{
+  margin-top: 100px;
+}
+
+#section6container{
+  background-color: rgba(1, 3, 38, 1);
+}
+
+#section6text1{
+font-family: PT Sans;
+font-size: 18px;
+color: rgba(255, 255, 255, 1);text-align: left;
+}
+#section6text2{
+font-family: LEMON MILK;
+text-align: left;
+color: rgba(255, 255, 255, 1);
+}
+#section6button{
+  border-radius: 0%;
+  color: rgba(255, 255, 255, 1);
+  border: 1px solid rgba(255, 255, 255, 1);
+}
+#section6text3{
+  font-family: LEMON MILK;
+  text-align: left;
+  color: white;
+}
+#section6text4{
+  font-family: PT Sans;
+  text-align: left;
+  color: white;
+  font-size: large
+}
+#section6div2{
+  background-color: rgba(3, 40, 89, 1);
+}
+#section7div{
+  background-image: url("/Images/Section7/Overlay1.png");
+  background-size: cover;
+}
+#section6img{
+  object-fit: cover;
+}
+
+#section8Input{
+  border-bottom: 2px solid white;
+  padding: 12px 20px 12px 20px;
+  color: rgb(255, 255, 255);
+  background-color: rgba(0, 0, 0, 0);
+  margin-left:200px;
+  border-top: 0;
+  border-left:0;
+  border-right:0; 
+  position: relative;
+
+}
+.icon{
+  padding-left: 25px;
+  background: url("/Images/Section8/Email.png") no-repeat left;
+  background-size: 20px;
+}
+#section8Input::placeholder{
+  color: white;
+  text-align: center;
+}
+#section8button{
+  border-radius: 0%;
+  background-color: rgba(15, 109, 191, 1);
+  color: white;
+  margin-left: 25px;
+}
+
+
+/* Section:9 */
+
+#section9div{
+max-width:800px;
+margin: auto;
+}
+
+#section9div button{
+font-family: PT Sans;
+font-size: 32px;
+text-align: left;
+}
+
+#accordiantext9{
+  font-family: PT Sans !important;
+  font-size: 18px !important ;
+  text-align: left !important;
+  position: relative !important;
+  padding-left: 40px;
+}
+#accordiantext9::before{
+  content: '';
+  position: absolute;
+  width: 80px;
+  height: 98px;
+  background-image: url(/Images/Section9/Group10.png);
+  object-fit: contain;
+  background-repeat: no-repeat;
+  background-color: rgb(0,0,0,0);
+  top: 0px;
+  left: 0px;
+}
+#section9text1{
+font-family: LEMON MILK;
+font-size: 48px;
+font-weight: 500;
+line-height: 62.4px;
+text-align: center;
+}
+
+#section9text1{
+font-family: LEMON MILK;
+font-size: 48px;
+text-align: left;
+color: rgba(15, 109, 191, 1);
+}
+#section9text2{
+font-family: LEMON MILK LIGHT;
+font-size: 48px;
+text-align: left;
+color: rgba(56, 56, 56, 1);
+}
+.accordion-flush .accordion-item {
+  border: none !important;
+}
+
+#section9div .accordion-button::after {
+  position: absolute !important;
+  left: 0;
+}
+
+#section9div button {
+    padding-left: 40px !important;
+}
+#section9div .accordion-button.collapsed::after {
+  background-image: url("/Images/Section9/Positive.png") !important;
+}
+#section9div .accordion-button:not(.collapsed)::after {
+  background-image: url("/Images/Section9/Negative.png") !important;
+  transform: rotate(0) !important;
+}
+
+/* Section:10 */
+#section10text1{
+font-family: PT Sans;
+font-size: 32px;
+font-weight: 700;
+text-align: left;
+color: rgba(15, 109, 191, 1);
+margin-bottom: 0%;
+}
+#section10text2{
+font-family: LEMON MILK;
+font-size: 64px;
+font-weight: 500;
+text-align: left;
+margin-bottom: 0%;
+}
+#section10text3{
+font-family: LEMON MILK LIGHT;
+font-size: 64px;
+font-weight: 300;
+text-align: center;
+margin-bottom: 0%;
+}
+#section10button{
+border-radius: 0%;
+margin-left: 200px;
+margin-bottom: 25px;
+}
+
+/* cards */
+
+/* Section:10 */
+#maindivsection10{
+  width: 100%;
+  display: flex;
+  gap: 10px;
+}
+#maindivsection10 .cards{
+   width: 360px;
+   height: 830px;
+   border-radius: 0%;
+   cursor: pointer;
+   overflow: hidden;
+}
+
+#maindivsection10 img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+}
+#maindivsection10 .cards:hover{
+  width: 50%;
+  transition: 1.2s;
+}
+#maindivsection10 .cards:hover img{
+  transform: scale(1.1);
+}
+#maindivsection10 .cards:hover .info{
+  opacity: 1;
+}
+#maindivsection10 .layer{
+  width: 100%;
+  height: 50%;
+  margin-top: -250px;
+  position: relative;
+  background: linear-gradient(to top,rgba(0,0,0,0.9),transparent);
+}
+#maindivsection10 .info{
+  position: absolute;
+  bottom: 180px;
+  padding: 20px;
+  opacity: 0;
+}
+
+#maindivsection10 .info h1{
+  font-family: PT Sans;
+  font-size: 36px;
+  text-align: left;
+  color: white;
+}
+#maindivsection10 .info p{
+  font-family: PT Sans;
+  font-size: 18px;
+  text-align: left;
+  color: white;
+}
+
+#maindivsection10 button{
+border: 2px solid white;
+width: 100%;
+height: 52px;
+padding: 14px 24px 14px 24px;
+justify-content: space-between;
+background-color: rgba(0, 0, 0, 0);
+color: white;
+text-align: left;
+display: flex;
+}
+#sectiondiv1{
+  background-image: url("/Images/Section10/Section1011.png");
+  background-size: cover;
+}
+
+#section11fluidcontainer{
+  background-image: url("/Images/Section11/ModernHouseat\ Twilight2.png");
+  background-size: contain;
+  width: 100%;
+  height: 1000px;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+#section11text1{
+font-family: LEMON MILK;
+font-size: 48px;
+text-align: left;
+color: white;
+
+}
+
+#section11text2{
+  font-family: LEMON MILK;
+  font-size: 48px;
+  text-align: right;
+  color: white;
+}
+#section11fluidcontainer1{
+  background: rgba(0, 0, 0, 0.647);
+  margin-top:-430px;
+
+}
+#section11Input{
+  border-bottom: 2px solid white;
+  padding: 12px 20px 12px 20px;
+  color: rgb(255, 255, 255);
+  background-color: rgba(0, 0, 0, 0);
+  margin-left:50px;
+  border-top: 0;
+  border-left:0;
+  border-right:0;
+}
+#section11Input::placeholder{
+  color: white;
+}
+#section10button{
+  border-radius: 0%;
+  background-color: rgba(15, 109, 191, 1);
+  color: white;
+  margin: 5px;
+}
+
+
+/* footer */
+
+#footersectioncol1 a{
+display: flex;
+font-family: PT Sans;
+font-size: 16px;
+font-weight: 400;
+text-align: left;
+text-decoration: none;
+color: black;
+}
+
+#footersectioncol1 a:hover{
+  color:rgba(15, 109, 191, 1) ;
+  text-decoration: underline;
+}
+
+#footercol1{
+  font-family: PT Sans;
+  font-size: 28px;
+  font-weight: 700;
+  text-align: left;
+  color: black;
+  }
+
+#footerbutton{
+width:100%;
+display: flex;
+margin-top: 5px;
+margin-bottom: 5px;
+}
+#footerbutton input{
+  border: 2px solid rgba(15, 109, 191, 1);
+}
+#footersocialicons{
+  display: flex;
+  gap: 10px;
+}
+.footericon{
+    padding-right: 25px;
+    background: url("/Images/Footer/bi_arrow-up.png") no-repeat right;
+    background-size: 20px;
+}
+
+
+/* LASTSECTION */
+
+#LASTSECTION{
+  color: white;
+}
+
+
+
+
+@media (max-width:767px) {
+
+#section2image1 {
+  display: none;
+}
+#mainbodydiv1text1{
+  font-family: LEMON MILK;
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 60px;
+  text-align: left;
+  }
+  #mainbodydiv1text2{
+  font-family: LEMON MILK LIGHT;
+  font-size: 34px;
+  font-weight: 300;
+  line-height: 50px;
+  text-align: left;
+  }
+#mainbodydiv1text2 Img {
+  display: none;
+}
+
+#maindiv1 img {
+  max-width: 100%;
+  margin: auto;
+  padding-top: 25px;
+}
+#maindiv2 img {
+  max-width: 100%;
+  margin: auto;
+}
+#Section1Form input {
+  border-radius: 0%;
+}
+#section1formdiv{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+#section2image img {
+  max-width: 100%;
+}
+ #paragraphtext1 img {
+   display: none;
+  
+}
+#paragraphtext1 {
+ margin: auto;
+}
+#paragraphtext2 {
+  padding-top: 0%;
+  padding-left: 0%;
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#section2Button {
+  background-color: white;
+  border: 2px solid rgba(15, 109, 191, 1);
+  width: 265.78px;
+  height: 56.78px;
+  padding: 12px 20px 12px 20px;
+  margin-left: 0px;
+  color: rgba(15, 109, 191, 1);
+}
+#small-section {
+  background-color: rgba(1, 3, 38, 1);
+  color: white;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+#section3forhomes {
+  margin-top: 20px;
+  font-family: LEMON MILK LIGHT;
+  font-size: 20px;
+  text-align: left;
+  color: black;
+  margin-bottom: 10px;
+}
+#nextcol-text {
+  font-family: PT Sans;
+  font-size: 18px;
+  color: rgba(56, 56, 56, 1);
+}
+#section3button span {
+  padding: 4px 12px 4px 12px;
+  border-radius: 50px;
+  border: 1px solid rgba(56, 56, 56, 1);
+  font-family: PT Sans;
+  font-size: 18px;
+  text-align: left;
+  color: rgba(56, 56, 56, 0.734);
+}
+#section3buttontext {
+  font-family: PT Sans;
+  font-size: 20px;
+  text-align: left;
+}
+#section4 {
+ display: none;
+}
+#section5text {
+  margin-top: 10px;
+}
+#section7frame{
+
+}
+#section9text1 {
+  font-family: LEMON MILK;
+  font-size: 35px;
+  text-align: left;
+  color: rgba(15, 109, 191, 1);
+}
+#section9text2 {
+  font-family: LEMON MILK LIGHT;
+  font-size: 35px;
+  text-align: left;
+  color: rgba(56, 56, 56, 1);
+}
+#section9div button {
+  font-family: PT Sans;
+  font-size: 15px;
+  text-align: left;
+}
+#accordiantext9 {
+  font-family: PT Sans !important;
+  font-size: 12px !important;
+  text-align: left !important;
+  position: relative !important;
+  padding-left: 40px;
+}
+#section10text2 {
+  font-family: LEMON MILK;
+  font-size: 34px;
+  font-weight: 500;
+  text-align: left;
+  margin-bottom: 0%;
+}
+#section10text3 {
+  font-family: LEMON MILK LIGHT;
+  font-size: 34px;
+  font-weight: 300;
+  text-align: left;
+  margin-bottom: 0%;
+}
+#section10text3 {
+  font-family: LEMON MILK LIGHT;
+  font-size: 28px;
+  font-weight: 300;
+  text-align: left;
+}
+#maindivsection10 {
+  display: none;
+}
+#section11fluidcontainer {
+  display: none;
+}
+#section11fluidcontainer1 {
+  background: rgba(0, 0, 0, 0.647);
+   margin-top: 0px;
+}
+#section11text1 {
+  font-family: LEMON MILK;
+  font-size: 24px;
+  text-align: left;
+  color: white;
+}
+#section11text2 {
+  font-family: LEMON MILK;
+  font-size: 24px;
+  text-align: left;
+  color: white;
+}
+#section11Input {
+  border-bottom: 2px solid white;
+  color: rgb(255, 255, 255);
+  background-color: rgba(0, 0, 0, 0);
+  margin: auto;
+}
+#footerlogo img{
+  max-width: 100%;
+}
+#section9div {
+ max-width: 800px;
+}
+
+}
+
+
+  
